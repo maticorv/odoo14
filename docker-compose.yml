@@ -3,7 +3,7 @@
 version: '2'
 services:
   web:
-    image: matiascorvalan24/odoo14:20201026
+    image: matiascorvalan24/odoo14:20201112
     restart: unless-stopped
     depends_on:
       - db
